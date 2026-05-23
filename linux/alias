@@ -1,0 +1,8 @@
+# shell
+alias ..='cd ..'
+alias ls='ls -a'
+alias mkdir='function mkdircd(){ mkdir -p "$1"; cd "$1"; }; mkdircd'
+# maven
+alias compile='mvn clean compile'
+# others
+alias copilot='copilot --banner'
